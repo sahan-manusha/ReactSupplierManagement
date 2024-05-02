@@ -18,12 +18,14 @@ const SupplierTable = ({supplier}) => {
       {/* Action column with Update and Delete buttons */}
       <td>
         <button
+        style={{backgroundColor : "lightgreen"}}
           className="btn btn-warning me-2"
           onClick={() => handleUpdate(supplier.supplierID)}
         >
           Update
         </button>
         <button
+        style={{backgroundColor:"red"}}
           className="btn btn-danger"
           onClick={() => handleDelete(supplier.supplierID)}
         >
