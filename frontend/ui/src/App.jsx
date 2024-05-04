@@ -8,6 +8,7 @@ import Image from './components/Image'
 import SupplierList from './components/SupplierList'
 import InsertSupplier from './components/InsertSupplier'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import UpdateSupplier from './components/UpdateSupplier'
 
 
 
@@ -27,7 +28,8 @@ function App() {
       <SearchBar/>
       <Routes>
         <Route path="/" element={<SupplierList/>} />
-        <Route path="/insert" element={<InsertSupplier/>} />        
+        <Route path="/insert" element={<InsertSupplier/>} />   
+        <Route path="/update" element={<UpdateSupplier/>} /> 
       </Routes>
     </Router>
     </>

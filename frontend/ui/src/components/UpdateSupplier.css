@@ -1,0 +1,54 @@
+/* Form Container */
+#supplierForm {
+    max-width: 600px; /* Adjust the width of the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Round the corners */
+    background-color: #f7f7f7; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px; /* Add spacing between form groups */
+  }
+  
+  /* Form Labels */
+  .form-group label {
+    display: block; /* Make the label block level */
+    font-weight: bold; /* Make the label text bold */
+    margin-bottom: 5px; /* Add spacing between label and input */
+  }
+  
+  /* Form Controls */
+  .form-control {
+    width: 100%; /* Make inputs and textareas full width */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Round the corners */
+    transition: border-color 0.3s ease; /* Transition effect on focus */
+  }
+  
+  /* Form Controls: Focus */
+  .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  /* Submit Button */
+  .btn {
+    padding: 10px 15px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Round the corners */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect on hover */
+  }
+  
+  /* Submit Button: Hover */
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
