@@ -1,9 +1,10 @@
 import React from 'react'
 
 const SearchBar = () => {
+
   return (
     <div>
-       <nav class="navbar bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <form class="d-flex ms-auto" role="search">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>

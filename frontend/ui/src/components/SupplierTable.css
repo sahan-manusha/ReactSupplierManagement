@@ -1,0 +1,28 @@
+/* Styles for the table container */
+.table-container {
+    display: flex; /* Use flexbox to align the table */
+    justify-content: center; /* Center the table horizontally */
+    margin: 20px; /* Add margin around the container */
+}
+
+/* Styles for the table */
+.small-table {
+    width: 50%; /* Set the width of the table to 50% of its container */
+    border-collapse: collapse; /* Collapse the borders of the table */
+}
+
+/* Optional: Adjust padding and font size */
+.small-table th, .small-table td {
+    padding: 8px; /* Add padding to table cells */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Optional: Customize header styles */
+.small-table thead {
+    background-color: #f8f9fa; /* Light background color for header */
+}
+
+/* Optional: Add border to table cells */
+.small-table th, .small-table td {
+    border: 1px solid #dee2e6; /* Light border around table cells */
+}
